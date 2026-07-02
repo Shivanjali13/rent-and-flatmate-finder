@@ -120,6 +120,21 @@ class InterestStatusUpdate(BaseModel):
     status: InterestStatus  # accepted | declined
 
 
+class InterestDetailOut(InterestOut):
+    """
+    Enriched view used by dashboard/interest-list screens so the frontend
+    doesn't need a second round-trip per row to show listing + other-party info.
+    """
+    listing_location: str
+    listing_rent: float
+    listing_room_type: str
+    other_party_id: int
+    other_party_name: str
+    other_party_email: EmailStr
+    compatibility_score: Optional[int] = None
+    compatibility_explanation: Optional[str] = None
+
+
 # ---------- Messages ----------
 
 class MessageCreate(BaseModel):
