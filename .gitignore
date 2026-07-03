@@ -28,3 +28,9 @@ test.db
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local helper scripts
+smoke_test.sh
+smoke_chat.sh
+package_project.sh
+deploy_ready.sh
