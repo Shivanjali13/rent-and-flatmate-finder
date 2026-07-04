@@ -4,6 +4,8 @@ It is an AI-powered platform where room owners list rooms and tenants create pro
 WebSocket chat unlocks once mutual interest is confirmed between the tenant and owner, and email notifications are also used for communication.
 
 
+Live API: <optimistic-insight-production-d668.up.railway.app>
+(interactive docs at <optimistic-insight-production-d668.up.railway.app>/docs)
 ---
 
 ## Table of Contents
@@ -32,6 +34,8 @@ WebSocket chat unlocks once mutual interest is confirmed between the tenant and 
 | LLM      | Groq API (Llama 3.3 70B)                    |
 | Email    | Resend                                      |
 | Hosting  | Backend → Railway, Frontend → Vercel        |
+
+
 
 ---
 
