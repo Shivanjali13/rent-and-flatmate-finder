@@ -3,7 +3,7 @@
 It is an AI-powered platform where room owners list rooms and tenants create profiles in order to look for rooms according to their need and budget. An LLM-based compatibility engine scores and ranks matches, real-time
 WebSocket chat unlocks once mutual interest is confirmed between the tenant and owner, and email notifications are also used for communication.
 
-
+Live app: [https://rent-and-flatmate-finder.vercel.app](https://rent-and-flatmate-finder.vercel.app/login)
 Live API: [optimistic-insight-production-d668.up.railway.app](optimistic-insight-production-d668.up.railway.app)
 (interactive docs at [optimistic-insight-production-d668.up.railway.app](optimistic-insight-production-d668.up.railway.app>/docs))
 ---
