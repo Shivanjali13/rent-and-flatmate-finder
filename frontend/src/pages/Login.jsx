@@ -20,7 +20,8 @@ export default function Login() {
       else if (user.role === 'owner') navigate('/my-listings')
       else navigate('/admin')
     } catch (err) {
-      setError(err.response?.data?.detail || 'Login failed')
+      console.error('Login error:', err)
+      setError(err.response?.data?.detail || `Login failed: ${err.message}`)
     } finally {
       setLoading(false)
     }

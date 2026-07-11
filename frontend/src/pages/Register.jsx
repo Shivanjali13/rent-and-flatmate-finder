@@ -22,7 +22,8 @@ export default function Register() {
       else if (user.role === 'owner') navigate('/my-listings')
       else navigate('/admin')
     } catch (err) {
-      setError(err.response?.data?.detail || 'Registration failed')
+      console.error('Registration error:', err)
+      setError(err.response?.data?.detail || `Registration failed: ${err.message}`)
     } finally {
       setLoading(false)
     }
